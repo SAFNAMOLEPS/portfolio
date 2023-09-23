@@ -1,0 +1,170 @@
+*{
+    font-family: 'Montserrat Alternates', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: rgb(45, 43, 47);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+nav ul{
+    display: flex;
+}
+nav ul li a{
+    display: flex;
+    margin: 30px;
+    color: rgb(225, 248, 234);
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: rgb(15, 170, 247);
+    text-shadow: 5px 6px 8px rgb(244, 243, 243);
+}
+video{
+    width: 100%;
+
+}
+.overlay{
+    position: absolute;
+    top: 40%;
+    left:33% ;
+    color: rgb(250, 107, 18);
+    text-shadow: 4px 5px 7px rgb(124, 161, 236);
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+span{
+    color: rgb(168, 36, 6);
+}
+#outer{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+}
+#outer::before{
+    content: "";
+    background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20230518/pngtree-young-woman-with-long-brown-hair-posing-for-a-picture-image_2585584.jpg');
+    height: 600px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .6
+}
+.main{
+    position: absolute;
+    border: 2px ridge white;
+    padding: 50px;
+    top: 900px;
+    left: 10%;
+    box-shadow: 4px 5px 6px 7px white;
+}
+ h2{
+    text-align: center;
+    color: rgb(199, 114, 15);
+
+}
+ h2:hover{
+    text-shadow: 4px 5px 6px rgb(214, 29, 29);
+    text-decoration: underline;
+    font-size: xx-large;
+}
+.pic{
+    display: flex;
+}
+.pic p{
+    text-align: justify;
+    margin: 30px;
+}
+h3{
+    text-align: center;
+    text-decoration: underline;
+    padding-top: 10px;
+}
+#about{
+    padding: 20px;
+}
+.pic img{
+    border-radius: 50%;
+    padding-top: 20px;
+}
+.gallery img{
+    width: 200px;
+    height: 250px;
+    margin: 20px;
+    
+}
+.gallery{ 
+    padding: 20px;
+    margin-left: 180px;
+}
+.gallery img:hover{
+    box-shadow: 4px 5px 6px 7px red;
+}
+.row{
+    display: flex
+}
+.box{
+    width: 300px;
+    height: 400px;
+    margin: 20px;
+    border: 2px ridge black;
+    background: linear-gradient(to top,rgb(218, 210, 195) 50%,rgb(232, 135, 135) 50%);
+    background-size: 100% 200%;
+    transition: all 0.9s;
+}
+.box img{
+    width: 100%;
+}
+.box p{
+    text-align: justify;
+    margin: 20px;
+    
+    
+}
+.box:hover{
+    border: none;
+    box-shadow: 4px 5px 6px 7px black;
+    background-position: left bottom;
+}
+.box h4{
+    text-align: center;
+    color: blueviolet;
+}
+form{
+    width: 500px;
+    margin-left: 27%;
+}
+.input{
+    display: flex;
+    width: 100%;
+    margin: 10px;
+    
+}
+@media screen and (max-width:400px) {
+    
+    *{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+        
+        nav{
+            width: 400px;
+            background-color: brown;
+        }
+        video{
+            width: 400px;
+        }
+        .overlay{
+            width: 400px;
+            color: brown;
+        }
+        
+
+    }
+
