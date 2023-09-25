@@ -73,7 +73,7 @@ span{
  h2:hover{
     text-shadow: 4px 5px 6px rgb(214, 29, 29);
     text-decoration: underline;
-    font-size: xx-large;
+    font-size: x-large;
 }
 .pic{
     display: flex;
@@ -147,24 +147,98 @@ form{
     margin: 10px;
     
 }
-@media screen and (max-width:400px) {
+@media screen and (max-width:400px){
     
-    *{
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-    }
+*{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 0px;
+  margin: 0px;
+}
         
-        nav{
+nav{
             width: 400px;
             background-color: brown;
+            
+            
         }
-        video{
+    nav ul li a{
+            padding: 15px;
+            margin: 5px;
+            font-size: small;
+            width: 400x;
+        }
+    video{
             width: 400px;
+        
         }
         .overlay{
-            width: 400px;
+            left: 20%;
+            top: 30%;
             color: brown;
+            font-size: smaller;
+        }
+        .pic{
+            display: flex;
+            flex-direction: column;
+        }
+        .main{
+            top: 450px;
+            left: 10px;
+            padding: 30px;
+
+        }
+        #outer::before{
+            width: 400px;
+            height: 350px;
+        }
+        .gallery img{
+            display: flex;
+            flex-direction: column;
+        }
+        .row{
+            display: flex;
+            flex-direction: column;
+        }
+        h2{
+            padding: 0px;
+            margin: 0px;
+            padding-top: 0px;
+        }
+        #about{
+            width: 390px;
+            height: 920px;
+            padding: 0px;
+            margin: 0px;
+        }
+        #outer{
+            height: 380px;
+        }
+        .pic{
+            padding-left: 100px;
         }
         
-
+        .intro{
+            border: 2px solid black;
+            margin: 0px;
+            padding: 0px;
+            align-items: start;
+        }
+        .gallery{
+            padding: 0px;
+            margin-left: 80px;
+        }
+        .box{
+            margin-left: 50px;
+        }
+        form{
+            width: 400px;
+            
+            margin: 0px;
+        }
+        .input{
+            width: 350px;
+            margin-left: 30px;
+        }
+        
     }
 
